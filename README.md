@@ -3,5 +3,5 @@ https://www.themealdb.com/api.php
 Swift 4.2  
 MVVM  
 UIImageView Extension  
-ScrollDidView Customization  
+ScrollView Customization  
 Singleton - Web Calls & Services  
