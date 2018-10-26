@@ -89,6 +89,8 @@ class RecipeViewController: UIViewController,UITableViewDataSource,UITableViewDe
     
     
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        
+        print(scrollView.contentOffset.y)
         if scrollView == self.tableView {
             
             var frame = imageView.frame
@@ -97,7 +99,27 @@ class RecipeViewController: UIViewController,UITableViewDataSource,UITableViewDe
                 
                 frame.origin.y = 0
                 imageView.frame = frame
+                tableView.frame.origin.y = 250
+
             }
+            
+            if scrollView.contentOffset.y < 0 {
+                
+                frame.origin.y = 0
+                imageView.frame = frame
+                tableView.frame.origin.y = 250
+
+            }
+            
+            
+            if scrollView.contentOffset.y > 0 {
+                
+                frame.origin.y = -scrollView.contentOffset.y/3
+                imageView.frame = frame
+                tableView.frame.origin.y = 0
+            }
+            
+            
             
             
             
