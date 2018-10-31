@@ -13,3 +13,4 @@ Singleton - Web Calls & Services
 - Display Ingredients in RecipeInfoViewController  
 - Smooth out Image load/transition  
 
+![demo](https://github.com/ajtu/MealDB-dot-com/blob/master/mealdb.gif)
