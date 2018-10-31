@@ -9,8 +9,8 @@ Singleton - Web Calls & Services
 
 
 ###### To-Do
-- Add ingredients instance variable(property)   
-- Display Ingredients in RecipeInfoViewController  
-- Smooth out Image load/transition  
+[ ] Add ingredients instance variable(property)   
+[ ]Display Ingredients in RecipeInfoViewController  
+[ ]Smooth out Image load/transition    
 
 ![demo](https://github.com/ajtu/MealDB-dot-com/blob/master/mealdb.gif)
